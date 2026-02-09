@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="form.css">
+  <title>Tech Conference | Registration Form</title>
+</head>
+<body>
+
+  <section id="container">
+    <form class="formContainer">
+
+      <div class="formHeading">
+        <h2>TECH CONFERENCE REGISTRATION FORM</h2>
+      </div>
+
+      <div class="details">
+
+        <div class="formGroup">
+          <label for="fullName">Full Name</label>
+          <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+        </div>
+
+        <div class="formGroup">
+          <label for="mobileNumber">Mobile No.</label>
+          <input type="tel" id="mobileNumber" name="mobileNumber" placeholder="Enter your mobile number" required>
+        </div>
+
+        <div class="formGroup">
+          <label for="emailAddress">Email</label>
+          <input type="email" id="emailAddress" name="emailAddress" placeholder="Enter your email address" required>
+        </div>
+
+        <div class="formGroup">
+          <label for="age">Age</label>
+          <input type="number" id="age" name="age" min="18" placeholder="18+">
+        </div>
+
+        <div class="formGroup">
+          <label>Gender</label>
+          <div class="inlineOptions">
+            <label><input type="radio" name="mygender" value="male"> Male</label>
+            <label><input type="radio" name="mygender" value="female"> Female</label>
+            <label><input type="radio" name="mygender" value="other"> Other</label>
+          </div>
+        </div>
+
+        <div class="formGroup">
+          <label for="fieldOfInterest">Field of Interest</label>
+          <select id="fieldOfInterest" name="fieldOfInterest" required>
+            <option value="">Select your field</option>
+            <option value="ai">AI</option>
+            <option value="webDev">Web Development</option>
+            <option value="cybersecurity">Cybersecurity</option>
+            <option value="dataScience">Data Science</option>
+            <option value="cloudComputing">Cloud Computing</option>
+          </select>
+        </div>
+
+        <div class="formGroup">
+          <label>Form of Attendance</label>
+          <div class="inlineOptions">
+            <label><input type="radio" name="formOfAttendance" value="virtual"> Virtual</label>
+            <label><input type="radio" name="formOfAttendance" value="in-person"> In-Person</label>
+          </div>
+        </div>
+
+        <div class="formGroup">
+          <label for="excitementRate">Rate Your Excitement</label>
+          <input type="range" id="excitementRate" min="0" max="5">
+        </div>
+
+        <div class="formGroup">
+          <label for="specialAsk">Any special request?</label>
+          <textarea id="specialAsk"></textarea>
+        </div>
+
+        <div class="formGroup checkboxGroup">
+          <label>
+            <input type="checkbox" required>
+            Agree to terms & conditions
+          </label>
+        </div>
+
+        <button type="submit">Register</button>
+
+      </div>
+    </form>
+  </section>
+
+</body>
+</html>
