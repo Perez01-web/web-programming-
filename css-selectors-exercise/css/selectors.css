@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    color: blue;
+}
+
+.note {
+    color: red;
+}
+
+#header {
+    border: red solid 2px;
+}
+
+h1,
+h2 {
+    color: purple;
+}
+
+div p {
+    color: orange;
+}
+
+ul.list1 > li {
+    border: rgb(226, 27, 27) solid 1px;
+}
+
+p.highlight {
+    color: yellow;
+}
+
+div.hightlight {
+    color: greenyellow;
+}
+
+/* 10. genral sibling selectors */
+h2.ten ~ p {
+    color: rgb(70, 216, 216);
+}
+
+/* 8. descendant selector */
+.box.active {
+    border: 2px solid green;
+}
+
+/* 9. Single Sibling Selector */
+h2.nine + p {
+    color: red;
+}
+
+input[type="text"]{
+    border: 2px dashed purple;
+}
+
+/* Exact match attribute selector */
+a[target=_blank] {
+    color: orangered;
+}
+
+ul.thirteen li:first-child{
+    color: magenta;
+}
+
+/* 14 advanced attribute selector. (an exception) */
+p.fourteen:not(.skip) {
+    color: black;
+}
+
+table.table1 tr:nth-child(even){
+    color: blue;
+    border: 4px solid black;
+}
+
+.menu > li{
+    color: green;
+}
+
+

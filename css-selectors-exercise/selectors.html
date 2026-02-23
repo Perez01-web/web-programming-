@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/selectors.css">
+    <title>Selectors Exercise</title>
+</head>
+<body>
+    <!-- elements selector -->
+    <p>First paragraph</p>
+    <p>Second paragraph</p>
+    <div>Not a paragraph</div> <br><br>
+
+    <!-- class selector -->
+    <div class="note">Important note</div>
+    <p style="color: black;">normal</p>
+    <div class="note">Another note</div><br><br>
+
+    <!-- id selector -->
+    <h1 id="header"  style="color: black;">Welcome</h1>
+    <h1 style="color: black;">Another Heading</h1><br><br>
+
+    <!-- Group selector -->
+    <h1>Main title</h1>
+    <h2>Subtitle</h2>
+    <h3>Other title</h3><br><br>
+
+    <!-- descendant selector -->
+    <div>
+        <p>Inside div</p>
+    </div>
+    <p style="color: black;">Outside div</p><br><br>
+
+    <!-- child selection -->
+    <ul class="list1">
+        <li>item1</li>
+        <li>item2
+        <ol>
+            <li>Nested item</li>
+        </ol>
+        </li>
+    </ul><br><br>
+
+    <!-- class selection -->
+     <p class="highlight">Hightlighted paragraph</p>
+     <div class="highlight">Highlighted div</div><br><br>
+
+     <!-- 10. sibling selector -->
+      <h2 class="ten title">Title</h2>
+      <p class="ten paragraph1">Paragraph 1</p>
+      <div class="ten something">Something</div>
+      <p class="ten paragraph2">Paragrapg 2</p><br><br>
+
+
+      <!--8. descendant selector  -->
+      <div class="box">Box</div>
+      <div class="box active">Active box</div>
+      <div class="active">Active paragraph</div><br><br>
+
+      <!-- Single sibling selector -->
+       <h2 class="nine section">Section</h2>
+       <p class="nine first-paragraph">First paragraph</p>
+       <p class="nine second-paragraph">Second paragraph</p><br><br>
+
+       <!-- 11 attribute selector -->
+        <input type="text" class="eleven">
+        <input type="password" class="eleven">
+        <input type="text" class="eleven"><br><br>
+
+        <!-- 12 Contains selector -->
+         <a href="a.html" class="twelve">Link A</a>
+         <a href="b.html" class="twelve" target="_blank">Link A</a>
+         <a href="c.html" class="twelve" target="_blank">Link A</a><br><br>
+
+         <!-- 13 psuedo element selector (firstchild) -->
+          <ul class="thirteen">
+            <li class="thir1">Apple</li>
+            <li class="thir1">Banana</li>
+          </ul>
+
+          <ul class="thirteen">
+            <li class="thir1">Cat</li>
+            <li class="thir1">Dog</li>
+          </ul><br><br>
+
+          <p class="fourteen">Paragraph 1</p>
+          <p class="skip fourteen">Paragraph 2</p>
+          <p class="fourteen">Paragraph 3</p><br><br>
+
+          <table class="table1">
+            <tr>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+            </tr>
+          </table><br><br>
+
+    <!-- 16 -->
+     <ul class="menu">
+        <li>Main 1</li>
+        <li>Main 2
+            <ul class="submenu">
+                <li>Sub 1</li>
+            </ul>
+        </li>
+     </ul><br><br>
+
+</body>
+</html>
