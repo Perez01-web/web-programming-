@@ -26,7 +26,7 @@ button.signup {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.number2{
+.number2a, .number2b{
     border: 2px solid rgb(202, 200, 200);
     padding: 0.5rem;
     margin: 1.5rem;
@@ -94,5 +94,14 @@ button[type="submit"]{
 .form{
     flex-grow: 1.7;
 }
+
+
+/* NUmber 2b */
+ .container2b{
+    display: flex;
+    gap: 2rem;
+    height: 25rem;
+    padding: 2rem 1rem;
+ }
 
 
